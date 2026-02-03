@@ -15,6 +15,46 @@ Before using this skill, safe-chain must be installed:
 # https://github.com/AikidoSec/safe-chain
 ```
 
+## Installation
+
+### Using npx skills add
+
+You can install this skill using the [Vercel Skills](https://github.com/vercel-labs/skills) CLI:
+
+```bash
+npx skills add https://github.com/strozw/agent-skills/tree/main/skills/safe-chain
+```
+
+This command will:
+
+1. Download the skill from the repository
+2. Place it in your `~/.agents/skills/safe-chain/` directory
+3. Make it available to Claude Code automatically
+
+### Manual Installation
+
+Alternatively, you can manually copy the skill:
+
+```bash
+# Clone the repository
+git clone https://github.com/strozw/agent-skills.git
+
+# Copy the safe-chain skill to your agents directory
+cp -r agent-skills/skills/safe-chain ~/.agents/skills/
+```
+
+### Verifying Installation
+
+After installation, verify that the skill is available:
+
+```bash
+# List installed skills
+ls ~/.agents/skills/
+
+# Check if safe-chain is present
+ls ~/.agents/skills/safe-chain/
+```
+
 ## Features
 
 ### Supported package managers
