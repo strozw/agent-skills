@@ -1,0 +1,23 @@
+skills/safe-chain/README.md
+  269ffb89617cef2d 18-57
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.0.42",
+  "base_commit_sha": "fc0b9f4dbac2bb44bf67424953901a97ba8c43f2",
+  "prompts": {
+    "269ffb89617cef2d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e83e5401-6581-4ed4-8ab7-5eb462a969b6",
+        "model": "claude-sonnet-4-5-20250929"
+      },
+      "human_author": "strozw <strozw@users.noreply.github.com>",
+      "messages": [],
+      "total_additions": 40,
+      "total_deletions": 0,
+      "accepted_lines": 40,
+      "overriden_lines": 0
+    }
+  }
+}
